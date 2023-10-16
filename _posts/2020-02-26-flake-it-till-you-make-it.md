@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Find my stuff:
 subtitle: 
 cover-img: 
