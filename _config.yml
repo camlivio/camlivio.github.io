@@ -22,9 +22,8 @@ author: Camila Lívio
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://camilalivio.com"
+    - My GitHub: "https://github.com/camlivio"
+  Author's home: "https://camlivio.github.io"
 
 ################
 # --- Logo --- #
