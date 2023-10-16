@@ -14,7 +14,7 @@ I first moved to the U.S. for a Fulbright fellowship back in 2013. I've always b
 - information/misinformation
 - translation and the use of corpora in translation (particularly collocation analysis and parallel text analysis)
 - foreign languages in general (and the Romance languages in particular)
-- sociolinguistics
+- sociolinguistics/language variation
 - pragmatics
   
 
