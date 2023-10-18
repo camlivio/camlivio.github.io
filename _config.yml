@@ -24,7 +24,7 @@ navbar-links:
   Resources:
     - My GitHub: "https://github.com/camlivio"
     - GIRL project: "https://girlanguages.github.io"
-    - My publications: "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJ1KiT3HZTau_H5e8j5XRE-fH1CEnYPHWju9bTONm_7pUDrpgH69Z0hgJT-YnS8UazEHKg-NYkjnSwr60xytdg&user=AB8sHc8AAAAJ"
+    - Publications: "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJ1KiT3HZTau_H5e8j5XRE-fH1CEnYPHWju9bTONm_7pUDrpgH69Z0hgJT-YnS8UazEHKg-NYkjnSwr60xytdg&user=AB8sHc8AAAAJ"
  
 
 ################
@@ -33,7 +33,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/valencia.JPG"
+avatar: "/assets/img/IMG-20170309-WA0010.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
