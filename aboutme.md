@@ -17,11 +17,10 @@ I'm interested in:
 - computational approaches to text analysis 
 - open access 
 - open research practices
+- research impact 
 - information/misinformation
-- translation and the use of corpora in translation (particularly collocation analysis and parallel text analysis)
-- foreign languages in general (and the Romance languages in particular)
-- the science of learning
-- pragmatics
+- languages in general (and the Romance languages in particular)
+
   
 
 
