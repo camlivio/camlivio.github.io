@@ -13,12 +13,11 @@ I first moved to the U.S. for a [Fulbright fellowship](https://foreign.fulbright
 I'm interested in:
 
 - online communities and digital communication
-- sociolinguistics
+- national and international relations
 - computational approaches to text analysis 
-- open access 
 - open research practices
-- research impact 
 - information/misinformation
+- sociolinguistics
 - languages in general (and the Romance languages in particular)
 
   
