@@ -123,8 +123,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#FFD700" }};
-  border-bottom: 1px solid {{ site.navbar-border-col | default: "#E6BE00" }};
+  background-color: {{ site.navbar-col | default: "#ffc400" }};
+  border-bottom: 1px solid {{ site.navbar-border-col | default: "#ffc400" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
