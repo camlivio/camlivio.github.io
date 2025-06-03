@@ -123,14 +123,18 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #FFD700;
-  border-bottom: 1px solid #E6BE00;
+  background-color: {{ site.navbar-col | default: "#FFD700" }};
+  border-bottom: 1px solid {{ site.navbar-border-col | default: "#E6BE00" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-attachment: fixed;
+  {% if site.navbar-img %}
+    background-image: url({{ site.navbar-img | relative_url }});
+    background-attachment: fixed;
+  {% endif %}
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
 }
+
 
 .navbar-custom,
 .navbar-custom.top-nav-short,
