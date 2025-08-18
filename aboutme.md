@@ -14,9 +14,14 @@ I'm interested in:
 
 - online communities and digital communication
 - national and international relations
-- computational approaches to text analysis 
-- open research practices
 - information/misinformation
+- stance-taking 
+- computational approaches to text analysis
+- text as data
+- large language models
+- natural language processing
+- machine learning 
+- open research practices
 - sociolinguistics
 - languages in general (and the Romance languages in particular)
 
