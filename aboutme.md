@@ -4,14 +4,19 @@ title: About me
 subtitle: Camila Lívio, Ph.D.
 ---
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/assets/img/CL2.jpg" alt="Camila Lívio" style="width: 220px;">
-</div>
+<div style="display: flex; gap: 2.5rem; align-items: flex-start; margin-bottom: 2rem;">
+  <div style="flex: 1;">
 
 My full name is Camila Lívio Emídio, but my scholarly productions are under Camila Lívio.
 
 ### My Academic Interests
-I first moved to the U.S. for a [Fulbright fellowship](https://foreign.fulbrightonline.org/about/flta-program) back in 2013, at the University of Pennsylvania. I've always been interested in foreign languages and linguistics, which led me to a Ph.D. in Romance Languages at the University of Georgia. During my time as a graduate student, I enjoyed learning about computational approaches for text analysis and took courses on quantitative methods, finite state machines, sociolinguistics and field methods. I have extensive teaching experience, and more recently I completed [The Carpentries Instructor Training Program](https://carpentries.org/index.html) to integrate data science into my classes, workshops and peer mentoring. 
+I first moved to the U.S. for a [Fulbright fellowship](https://foreign.fulbrightonline.org/about/flta-program) back in 2013, at the University of Pennsylvania. I've always been interested in foreign languages and linguistics, which led me to a Ph.D. in Romance Languages at the University of Georgia. During my time as a graduate student, I enjoyed learning about computational approaches for text analysis and took courses on quantitative methods, finite state machines, sociolinguistics and field methods. I have extensive teaching experience, and more recently I completed [The Carpentries Instructor Training Program](https://carpentries.org/index.html) to integrate data science into my classes, workshops and peer mentoring.
+
+  </div>
+  <div style="flex-shrink: 0;">
+    <img src="/assets/img/CL2.jpg" alt="Camila Lívio" style="width: 220px; display: block;">
+  </div>
+</div>
 
 
 I'm interested in:
