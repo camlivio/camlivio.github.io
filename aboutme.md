@@ -4,7 +4,9 @@ title: About me
 subtitle: Camila Lívio, Ph.D.
 ---
 
-<img src="/assets/img/CL2.jpg" alt="Camila Lívio" style="float: right; margin: 0 0 1rem 2rem; width: 220px;">
+<div style="text-align: center; margin-bottom: 2rem;">
+  <img src="/assets/img/CL2.jpg" alt="Camila Lívio" style="width: 220px;">
+</div>
 
 My full name is Camila Lívio Emídio, but my scholarly productions are under Camila Lívio.
 
