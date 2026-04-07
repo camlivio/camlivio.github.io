@@ -5,7 +5,7 @@ subtitle: Camila Lívio, Ph.D.
 ---
 
 <div style="display: flex; gap: 2.5rem; align-items: flex-start; margin-bottom: 2rem;">
-  <div style="flex: 1;">
+  <div style="flex: 1;" markdown="1">
 
 My full name is Camila Lívio Emídio, but my scholarly productions are under Camila Lívio.
 
