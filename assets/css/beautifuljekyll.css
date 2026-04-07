@@ -744,10 +744,15 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 /* On mobile, use cover so the banner image fills the screen properly */
 @media (max-width: 767px) {
   .intro-header.big-img {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-position: center center;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    min-height: 220px;
+  }
+  .intro-header.big-img .page-heading,
+  .intro-header.big-img .post-heading {
+    padding: 5rem 0 !important;
   }
 }
 
