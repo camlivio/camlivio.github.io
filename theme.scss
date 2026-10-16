@@ -1,0 +1,274 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+// Palette v2 (see ../PLAN.md). Yellow and lavender are fills only, with ink text.
+$ink: #111111;
+$paper: #ffffff;
+$muted: #4a4a4a;
+$line: #e6e6e6;
+$yellow: #ffd60a;
+$blue: #1f4fd8;
+$lavender: #c9b8f0;
+
+$font-family-sans-serif: "DM Sans", system-ui, -apple-system, sans-serif;
+$headings-font-weight: 700;
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $blue;
+
+$navbar-bg: $paper;
+$navbar-fg: $ink;
+$navbar-hl: $ink;
+$footer-bg: $ink;
+$footer-fg: $paper;
+
+$code-color: $ink;
+$code-bg: #f1f1f1;
+
+/*-- scss:rules --*/
+
+h1, h2, h3, .navbar-title { letter-spacing: -0.02em; }
+
+// ---- header ----
+// Let the header scroll with the page instead of Quarto's fixed/headroom
+// navbar, which overlapped the top of the custom-layout home page.
+#quarto-header {
+  position: relative !important;
+  transform: none !important;
+}
+body.nav-fixed { padding-top: 0 !important; }
+.navbar {
+  border-bottom: 1px solid $line;
+  padding: 20px 48px;
+}
+.navbar-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: $ink;
+}
+.navbar .nav-link {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $ink;
+  padding-bottom: 4px;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.2s;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: $ink;
+  border-bottom-color: $yellow;
+}
+@media (min-width: 992px) {
+  .navbar-nav .nav-item { margin-left: 24px; }
+  .navbar .nav-link { padding-left: 0 !important; padding-right: 0 !important; }
+}
+
+// ---- home hero ----
+// #quarto-content prefix beats Quarto's own `#quarto-content > *` padding rule
+#quarto-content > .hero {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 104px 32px 72px;
+}
+.eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: $yellow;
+  color: $ink;
+  padding: 6px 12px;
+}
+.hero > p:first-child { margin: 0 0 28px; }
+.hero-title {
+  font-size: 40px;
+  line-height: 1.15;
+  margin: 0 0 28px;
+}
+.lede p {
+  font-size: 19px;
+  line-height: 1.65;
+  color: $muted;
+  max-width: 680px;
+  margin: 0 0 36px;
+}
+.tags p, .cta-row p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+}
+.tags p { gap: 10px; margin-bottom: 48px; }
+.cta-row p { gap: 20px 28px; }
+.tag, .tag-list li {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $ink;
+  background: $lavender;
+  padding: 6px 12px;
+}
+a.cta-primary {
+  font-weight: 600;
+  font-size: 14px;
+  color: $paper;
+  background: $blue;
+  padding: 14px 26px;
+  text-decoration: none;
+  &:hover { background: $ink; color: $paper; }
+}
+a.cta-secondary {
+  font-size: 14px;
+  font-weight: 500;
+  color: $ink;
+  text-decoration: none;
+  border-bottom: 3px solid $yellow;
+  padding-bottom: 2px;
+  &:hover { border-bottom-color: $blue; }
+}
+
+// ---- three solid-color blocks ----
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 880px; // same as .hero, so the blocks line up with the text above
+  margin: 0 auto 96px;
+  padding: 0 32px;
+}
+a.block {
+  padding: 26px 28px 28px;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  h2 { font-size: 24px; margin: 0 0 12px; padding: 0; border: none; color: inherit; }
+  p { margin: 0; font-size: 15px; line-height: 1.55; }
+  .more {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 24px;
+  }
+  &:hover .more { text-decoration: underline; text-underline-offset: 4px; }
+}
+.b-yellow, .b-yellow:hover { background: $yellow; color: $ink; }
+.b-blue, .b-blue:hover { background: $blue; color: $paper; }
+.b-lavender, .b-lavender:hover { background: $lavender; color: $ink; }
+
+// ---- inner pages ----
+#title-block-header {
+  margin-top: 56px;
+  .title { font-size: 40px; }
+  .subtitle {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: $yellow;
+    padding: 6px 12px;
+    margin-top: 12px;
+  }
+}
+main p { line-height: 1.65; }
+main h2 { margin-top: 2.5rem; border-bottom: none; }
+.tag-list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+// ---- R hex stickers (Teaching) ----
+$hex-h: 96px;
+.hex-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 8px 0 24px;
+}
+.hex {
+  height: $hex-h;
+  width: $hex-h * 0.866; // sticker aspect ratio, 2521 x 2911
+}
+// R has no official sticker: the R logo inside a hexagon of the same shape
+.hex-r {
+  position: relative;
+  display: inline-block;
+  background: #2165b6;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  .hex-inner {
+    position: absolute;
+    inset: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $paper;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  }
+  img { width: 62%; }
+}
+@media (max-width: 720px) {
+  .hex-row { gap: 8px; }
+  .hex { height: 48px; width: 48px * 0.866; }
+  .hex-r .hex-inner { inset: 3px; }
+}
+
+// ---- stacked color cards (Teaching, Publications) ----
+.stack-items { margin-top: 40px; }
+.stack-item {
+  padding: 28px 32px 30px;
+  h3 { font-size: 22px; font-weight: 700; margin: 6px 0 12px; }
+  h3 a { color: inherit; font-weight: inherit; text-decoration: none; border-bottom: 3px solid currentColor; }
+  h3 a:hover { border-bottom-color: transparent; }
+  p { margin: 0 0 12px; font-size: 15px; line-height: 1.6; }
+  p:last-child, h3:last-child { margin-bottom: 0; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { padding: 12px 0; border-top: 1px solid rgba(0, 0, 0, 0.15); font-size: 15px; line-height: 1.5; }
+  li a { color: inherit; font-weight: 600; text-decoration: none; border-bottom: 2px solid currentColor; }
+  li a:hover { border-bottom-color: transparent; }
+  li .source { display: block; margin-top: 4px; }
+  li .source a { font-weight: 500; border-bottom-width: 1px; }
+  code { color: inherit; background: rgba(0, 0, 0, 0.08); }
+  .week, .source { font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  .source { font-weight: 500; letter-spacing: 0.03em; text-transform: none; font-size: 13px; }
+}
+.stack-item.b-blue code { background: rgba(255, 255, 255, 0.18); }
+
+// ---- The Carpentries (Teaching) ----
+// Quarto puts header classes on the wrapping <section>, not the <h2>
+#quarto-content section.carpentries-heading { margin-top: 3.5rem; }
+.carpentries {
+  border-top: 3px solid $ink;
+  padding-top: 28px;
+  .carpentries-logo-link { display: inline-block; margin-bottom: 16px; }
+  img.carpentries-logo { height: 44px; width: auto; display: block; }
+}
+
+// ---- footer ----
+footer.footer .nav-footer {
+  font-size: 14px;
+  padding: 28px 48px;
+  .nav-footer-left, .nav-footer-right { font-size: inherit; }
+  a { color: $paper; text-decoration: none; border-bottom: 2px solid $yellow; }
+  a:hover { color: $yellow; }
+}
+
+// ---- phone ----
+@media (max-width: 720px) {
+  .navbar, footer.footer .nav-footer { padding-left: 16px; padding-right: 16px; }
+  #quarto-content > .hero { padding: 56px 16px 48px; }
+  .hero-title, #title-block-header .title { font-size: 30px; }
+  .lede p { font-size: 17px; }
+  .blocks { grid-template-columns: 1fr; padding: 0 16px; }
+  a.block { min-height: 0; }
+}

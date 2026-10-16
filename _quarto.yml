@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  # explicit list so leftover Markdown (README.md etc.) is never rendered
+  render:
+    - index.qmd
+    - aboutme.qmd
+    - teaching.qmd
+    - publications.qmd
+    - 404.qmd
+
+website:
+  title: "Camila Lívio"
+  site-url: https://camlivio.github.io
+  search: false
+  navbar:
+    right:
+      - text: About
+        href: aboutme.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: GitHub
+        href: https://github.com/camlivio
+  page-footer:
+    left: "University of Georgia"
+    right: "[Email](mailto:camila.livio@uga.edu) · [GitHub](https://github.com/camlivio) · [ORCID](https://orcid.org/0000-0002-6878-7984) · [LinkedIn](https://www.linkedin.com/in/camila-l%C3%ADvio-a4554689/)"
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    lang: en

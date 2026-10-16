@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I currently teach INTL 7007, Data Analytics for International Policy Professionals, in the Master of International Policy program at the University of Georgia. In this class, we cover:\nBelow, you can find some of the hands-on activities that I use in class.\nCourse tutorial site ↗"
+  },
+  {
+    "objectID": "teaching.html#the-carpentries",
+    "href": "teaching.html#the-carpentries",
+    "title": "Teaching",
+    "section": "The Carpentries",
+    "text": "The Carpentries\n\n\nI am a certified instructor with The Carpentries, a nonprofit that teaches foundational coding and data science skills to researchers worldwide. I regularly use their open, community-developed lessons in my classes.\nBrowse Carpentries lessons ↗"
+  },
+  {
+    "objectID": "aboutme.html",
+    "href": "aboutme.html",
+    "title": "About me",
+    "section": "",
+    "text": "In 2013–2014, I held a Fulbright fellowship at the University of Pennsylvania. I’ve always been interested in foreign languages and linguistics, which led me to a Ph.D. in Linguistics (Romance Languages) at the University of Georgia. During my time as a graduate student, I enjoyed learning about computational approaches for text analysis and took courses on quantitative methods, finite state machines, sociolinguistics and field methods. I have extensive teaching experience, and more recently I completed The Carpentries Instructor Training Program to integrate data science into my classes, workshops and peer mentoring."
+  },
+  {
+    "objectID": "aboutme.html#im-interested-in",
+    "href": "aboutme.html#im-interested-in",
+    "title": "About me",
+    "section": "I’m interested in",
+    "text": "I’m interested in\n\n\nenergy security\nenergy markets\nmarket research\nonline communities and digital communication\nnational and international relations\ninformation/misinformation\nstance-taking\ndata science\nlarge language models\nnatural language processing\nmachine learning\nopen research practices\nsociolinguistics"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Profile\n\nGoogle Scholar ↗\n\n\n\nResearch program\n\nEnergy Security Studies Program (ESSP) ↗\nEnergy research at the Benson-Bertsch Center for International Trade and Security.\n\n\n\nWriting and press\n\nPublic Scholarship\n\nText Summarization, Translation, and Classification using LLMs: mall does it all ↗ Posit blog. Featured on the R Weekly Highlights podcast, episode 200 ↗.\nResearcher brings linguistic reasoning to energy analysis ↗ UGA Today"
+  }
+]

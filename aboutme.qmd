@@ -1,0 +1,23 @@
+---
+title: "About me"
+---
+
+In 2013–2014, I held a [Fulbright fellowship](https://foreign.fulbrightonline.org/about/flta-program) at the University of Pennsylvania. I've always been interested in foreign languages and linguistics, which led me to a Ph.D. in Linguistics (Romance Languages) at the University of Georgia. During my time as a graduate student, I enjoyed learning about computational approaches for text analysis and took courses on quantitative methods, finite state machines, sociolinguistics and field methods. I have extensive teaching experience, and more recently I completed [The Carpentries Instructor Training Program](https://carpentries.org/index.html) to integrate data science into my classes, workshops and peer mentoring.
+
+## I'm interested in
+
+::: {.tag-list}
+- energy security
+- energy markets
+- market research
+- online communities and digital communication
+- national and international relations
+- information/misinformation
+- stance-taking
+- data science
+- large language models
+- natural language processing
+- machine learning
+- open research practices
+- sociolinguistics
+:::

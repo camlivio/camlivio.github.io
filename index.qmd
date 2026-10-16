@@ -1,0 +1,40 @@
+---
+pagetitle: "Camila Lívio"
+page-layout: custom
+anchor-sections: false
+---
+
+::: {.hero}
+
+# I research energy and its role in society, policy, and public debate. {.hero-title}
+
+::: {.lede}
+I'm a [Research Associate for the Social Sciences](https://spia.uga.edu/staff/camila-livio/) at the [Benson-Bertsch Center for International Trade and Security](https://spia.uga.edu/departments-centers/center-for-international-trade-and-security-cits/) at the University of Georgia, exploring the intersection of data, policy, technology, and sustainability.
+:::
+
+::: {.tags}
+[Energy]{.tag} [Research]{.tag} [Data science]{.tag} [Natural language processing]{.tag}
+:::
+
+::: {.cta-row}
+[About me](aboutme.qmd){.cta-primary} [Publications →](publications.qmd){.cta-secondary}
+:::
+
+:::
+
+```{=html}
+<section class="blocks">
+  <a href="aboutme.html" class="block b-yellow">
+    <div><h2>About me</h2></div>
+    <div class="more">Read more →</div>
+  </a>
+  <a href="publications.html" class="block b-blue">
+    <div><h2>Publications</h2></div>
+    <div class="more">Read more →</div>
+  </a>
+  <a href="https://github.com/camlivio" class="block b-lavender">
+    <div><h2>GitHub</h2></div>
+    <div class="more">GitHub ↗</div>
+  </a>
+</section>
+```

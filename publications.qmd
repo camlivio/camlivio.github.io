@@ -1,0 +1,31 @@
+---
+title: "Publications"
+anchor-sections: false
+---
+
+::: {.stack-items}
+
+::: {.stack-item .b-yellow}
+[Profile]{.week}
+
+### [Google Scholar ↗](https://scholar.google.com/citations?user=AB8sHc8AAAAJ&hl=en)
+:::
+
+::: {.stack-item .b-blue}
+[Research program]{.week}
+
+### [Energy Security Studies Program (ESSP) ↗](https://spia.uga.edu/departments-centers/center-for-international-trade-and-security-cits/research-2/energy-and-security-2/)
+
+Energy research at the Benson-Bertsch Center for International Trade and Security.
+:::
+
+::: {.stack-item .b-lavender}
+[Writing and press]{.week}
+
+### Public Scholarship
+
+- [Text Summarization, Translation, and Classification using LLMs: mall does it all ↗](https://posit.co/blog/mall-ai-powered-text-analysis) [Posit blog. Featured on the [R Weekly Highlights podcast, episode 200 ↗](https://serve.podhome.fm/episodepage/r-weekly-highlights/200).]{.source}
+- [Researcher brings linguistic reasoning to energy analysis ↗](https://news.uga.edu/researcher-brings-linguistic-reasoning-to-energy-analysis/) <span class="source">UGA Today</span>
+:::
+
+:::
