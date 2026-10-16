@@ -6,8 +6,11 @@ project:
     - index.qmd
     - aboutme.qmd
     - teaching.qmd
-    - publications.qmd
+    - research.qmd
     - 404.qmd
+  # copied into docs/ on every render so GitHub Pages skips Jekyll
+  resources:
+    - .nojekyll
 
 website:
   title: "Camila Lívio"
@@ -17,10 +20,10 @@ website:
     right:
       - text: About
         href: aboutme.qmd
+      - text: Research
+        href: research.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: Publications
-        href: publications.qmd
       - text: GitHub
         href: https://github.com/camlivio
   page-footer:

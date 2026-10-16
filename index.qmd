@@ -17,7 +17,7 @@ I'm a [Research Associate for the Social Sciences](https://spia.uga.edu/staff/ca
 :::
 
 ::: {.cta-row}
-[About me](aboutme.qmd){.cta-primary} [Publications →](publications.qmd){.cta-secondary}
+[About me](aboutme.qmd){.cta-primary} [Research →](research.qmd){.cta-secondary}
 :::
 
 :::
@@ -28,8 +28,8 @@ I'm a [Research Associate for the Social Sciences](https://spia.uga.edu/staff/ca
     <div><h2>About me</h2></div>
     <div class="more">Read more →</div>
   </a>
-  <a href="publications.html" class="block b-blue">
-    <div><h2>Publications</h2></div>
+  <a href="research.html" class="block b-blue">
+    <div><h2>Research</h2></div>
     <div class="more">Read more →</div>
   </a>
   <a href="https://github.com/camlivio" class="block b-lavender">
