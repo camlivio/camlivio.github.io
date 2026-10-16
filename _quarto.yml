@@ -27,7 +27,6 @@ website:
       - text: GitHub
         href: https://github.com/camlivio
   page-footer:
-    left: "University of Georgia"
     right: "[Email](mailto:camila.livio@uga.edu) · [GitHub](https://github.com/camlivio) · [ORCID](https://orcid.org/0000-0002-6878-7984) · [LinkedIn](https://www.linkedin.com/in/camila-l%C3%ADvio-a4554689/)"
 
 format:
