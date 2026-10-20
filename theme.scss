@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@1&display=swap');
 
 // Palette v2 (see ../PLAN.md). Yellow and lavender are fills only, with ink text.
 $ink: #111111;
@@ -87,8 +87,27 @@ body.nav-fixed { padding-top: 0 !important; }
 .hero > p:first-child { margin: 0 0 28px; }
 .hero-title {
   font-size: 40px;
-  line-height: 1.15;
+  line-height: 1.1;
   margin: 0 0 28px;
+  text-wrap: balance;          // avoids a lonely last word when it wraps
+
+  // italic serif headline phrase, set against the squared DM Sans everywhere else
+  .serif {
+    display: block;
+    font-family: "Instrument Serif", Georgia, serif;
+    font-style: italic;
+    font-weight: 400;          // the family ships one weight
+    font-size: 1.35em;         // slim face: sized up to hold its own over the sub line
+    line-height: 1.05;
+    letter-spacing: -0.005em;
+  }
+  .sub {
+    display: block;
+    margin-top: 0.3em;
+    font-weight: 500;
+    font-size: 0.6em;
+    color: $muted;
+  }
 }
 .lede p {
   font-size: 19px;

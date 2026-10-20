@@ -6,7 +6,7 @@ anchor-sections: false
 
 ::: {.hero}
 
-# [Applied social scientist.]{.rounded} [Researcher. Data analyst. Translator between data and decisions.]{.sub} {.hero-title}
+# [Applied social scientist.]{.serif} [Researcher. Data analyst. Translator between data and decisions.]{.sub} {.hero-title}
 
 ::: {.lede}
 I'm a [Research Associate for the Social Sciences](https://spia.uga.edu/staff/camila-livio/) at the [Benson-Bertsch Center for International Trade and Security](https://spia.uga.edu/departments-centers/center-for-international-trade-and-security-cits/) at the University of Georgia, where I work on energy, technology, and security policy.
