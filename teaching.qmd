@@ -68,9 +68,9 @@ A quick check on a pair-programming task. Take apart a `.qmd` file, fix a broken
 ::: {.stack-item .b-yellow}
 [Week 10]{.week}
 
-### [How ggplot2 Works](https://camlivio.github.io/INTL7007/ggplot/)
+### [ggplot2](https://camlivio.github.io/INTL7007/ggplot/)
 
-A pair activity. Build a plot layer by layer, chart distributions and relationships, and fix three common bugs.
+Pair-programming activity.
 
 [Based on Wickham, Çetinkaya-Rundel & Grolemund, *R for Data Science* (2e), ch. 1.]{.source}
 :::
