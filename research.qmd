@@ -6,17 +6,17 @@ anchor-sections: false
 ::: {.stack-items}
 
 ::: {.stack-item .b-yellow}
-[Profile]{.week}
-
-### [Google Scholar ↗](https://scholar.google.com/citations?user=AB8sHc8AAAAJ&hl=en)
-:::
-
-::: {.stack-item .b-blue}
 [Research program]{.week}
 
 ### [Energy Security Studies Program (ESSP) ↗](https://spia.uga.edu/departments-centers/center-for-international-trade-and-security-cits/research-2/energy-and-security-2/)
 
 Energy research at the Benson-Bertsch Center for International Trade and Security.
+:::
+
+::: {.stack-item .b-blue}
+[Profile]{.week}
+
+### [Google Scholar ↗](https://scholar.google.com/citations?user=AB8sHc8AAAAJ&hl=en)
 :::
 
 ::: {.stack-item .b-lavender}

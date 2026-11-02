@@ -1,8 +1,9 @@
 ---
 title: "About me"
 ---
+I’m a researcher who combines quantitative social science and data science to tackle applied questions in energy security, policy, and public discourse. Recently, I’ve collaborated on research about data centers and AI, grid reliability, advanced nuclear reactors and nonproliferation, and lethal autonomous weapons systems. With the Energy Security Studies Program, I work with faculty and students on applied research for policy, industry, and public audiences, on topics such as the role of each resource and technology in power generation, electricity market structures, and emerging debates in energy policy.
 
-In 2013–2014, I held a [Fulbright fellowship](https://foreign.fulbrightonline.org/about/flta-program) at the University of Pennsylvania. I've always been interested in foreign languages and linguistics, which led me to a Ph.D. in Linguistics (Romance Languages) at the University of Georgia. During my time as a graduate student, I enjoyed learning about computational approaches for text analysis and took courses on quantitative methods, finite state machines, sociolinguistics and field methods. I have extensive teaching experience, and more recently I completed [The Carpentries Instructor Training Program](https://carpentries.org/index.html) to integrate data science into my classes, workshops and peer mentoring.
+My approach to research comes from my training as a sociolinguist. After a  [Fulbright fellowship](https://foreign.fulbrightonline.org/about/flta-program) at the University of Pennsylvania, I earned a Ph.D. in Linguistics (Romance Languages) at the University of Georgia, where I was trained to design empirical studies and analyze text and data. As a [certified Carpentries instructor](https://carpentries.org/index.html), I also integrate data science into my classes, workshops and peer mentoring.
 
 ## I'm interested in
 
@@ -17,7 +18,6 @@ In 2013–2014, I held a [Fulbright fellowship](https://foreign.fulbrightonline.
 - data science
 - large language models
 - natural language processing
-- machine learning
 - open research practices
 - sociolinguistics
 :::
