@@ -75,6 +75,16 @@ Pair-programming activity.
 [Based on Wickham, Çetinkaya-Rundel & Grolemund, *R for Data Science* (2e), ch. 1.]{.source}
 :::
 
+::: {.stack-item .b-blue}
+[Week 13]{.week}
+
+### [Text as Data](https://camlivio.github.io/INTL7007/text/)
+
+Pair-programming activity.
+
+[Based on Silge & Robinson, *Text Mining with R*, ch. 1–2. Data: Jankin, Baturo & Dasandi (2025), UN General Debate Corpus.]{.source}
+:::
+
 :::
 
 ## The Carpentries {.carpentries-heading}
