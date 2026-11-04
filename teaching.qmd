@@ -76,7 +76,7 @@ Pair-programming activity.
 :::
 
 ::: {.stack-item .b-blue}
-[Week 13]{.week}
+[Week 12/13]{.week}
 
 ### [Text as Data](https://camlivio.github.io/INTL7007/text/)
 
