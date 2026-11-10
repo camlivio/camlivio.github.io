@@ -32,4 +32,8 @@ website:
 format:
   html:
     theme: [cosmo, theme.scss]
+    # 816px = the home page's 880px column minus its 32px side padding, so
+    # inner pages line up with the home text and blocks
+    grid:
+      body-width: 816px
     lang: en

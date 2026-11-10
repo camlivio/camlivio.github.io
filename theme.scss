@@ -38,9 +38,12 @@ h1, h2, h3, .navbar-title { letter-spacing: -0.02em; }
   transform: none !important;
 }
 body.nav-fixed { padding-top: 0 !important; }
-.navbar {
+// #quarto-header prefix: Quarto's own navbar padding otherwise wins, which left the
+// header edges at 30px while the footer sat at 48px
+#quarto-header .navbar {
   border-bottom: 1px solid $line;
   padding: 20px 48px;
+  .navbar-container { padding-left: 0; padding-right: 0; }
 }
 .navbar-title {
   font-weight: 700;
@@ -60,7 +63,7 @@ body.nav-fixed { padding-top: 0 !important; }
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
   color: $ink;
-  border-bottom-color: $yellow;
+  border-bottom-color: $blue;   // yellow on white is only 1.4:1; yellow stays for fills
 }
 @media (min-width: 992px) {
   .navbar-nav .nav-item { margin-left: 24px; }
@@ -147,9 +150,9 @@ a.cta-secondary {
   font-weight: 500;
   color: $ink;
   text-decoration: none;
-  border-bottom: 3px solid $yellow;
+  border-bottom: 3px solid $blue;
   padding-bottom: 2px;
-  &:hover { border-bottom-color: $blue; }
+  &:hover { border-bottom-color: $ink; }
 }
 
 // ---- three solid-color blocks ----
@@ -198,6 +201,13 @@ a.block {
   }
 }
 main p { line-height: 1.65; }
+// Running text capped at the home lede's 680px (~70 characters a line); the
+// color blocks keep the full column, as on the home page
+main.content > p,
+main.content > section > p,
+main.content > section > ul,
+main.content > section > ol,
+main.content .tag-list { max-width: 680px; }
 main h2 { margin-top: 2.5rem; border-bottom: none; }
 .tag-list ul {
   list-style: none;
@@ -284,7 +294,7 @@ footer.footer .nav-footer {
 
 // ---- phone ----
 @media (max-width: 720px) {
-  .navbar, footer.footer .nav-footer { padding-left: 16px; padding-right: 16px; }
+  #quarto-header .navbar, footer.footer .nav-footer { padding-left: 16px; padding-right: 16px; }
   #quarto-content > .hero { padding: 56px 16px 48px; }
   .hero-title, #title-block-header .title { font-size: 30px; }
   .lede p { font-size: 17px; }

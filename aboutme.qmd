@@ -16,6 +16,7 @@ My approach to research comes from my training as a sociolinguist. After a  [Ful
 - information/misinformation
 - stance-taking
 - data science
+- data governance
 - large language models
 - natural language processing
 - open research practices
